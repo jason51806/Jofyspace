@@ -145,3 +145,17 @@ body {
   z-index: 999;
   opacity: 1;
 }
+
+footer {
+  background: rgba(37, 38, 42, 0.94);
+  bottom: 0;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  left: 0;
+  padding: 0 20px 0 0;
+  position: fixed;
+  width: 100%;
+  z-index: 5000;
+}
