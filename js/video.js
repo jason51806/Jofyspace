@@ -1,6 +1,5 @@
 $(document).ready(function(){
     var voiceController = document.getElementById("index-video");
-	voiceController.controls = false;
     $(".sound-button").click(function(){
         if (voiceController.muted == false) {
             $('.sound-button-img').attr('src','img/speaker_no.png');
