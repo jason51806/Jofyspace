@@ -1,26 +1,12 @@
 @font-face {
-  font-family: Amethyst;
-  src: url(./Neou-Bold.ttf);
-}
-@font-face {
-  font-family: Neou-Bold;
-  src: url(./Neou-Bold.ttf);
-}
-@font-face {
-  font-family: Neou-Thin;
-  src: url(./Neou-Thin.ttf);
-}
-@font-face {
-  font-family: JD;
-  src: url(./jd.ttf);
-}
-@font-face {
   font-family: 鐵線龍門;
   src: url(./華康鐵線龍門W3.ttf);
+  unicode-range: U+4E00-9FFF; /* Chinese glyphs */
 }
 @font-face {
   font-family: 瘦金;
   src: url(./華康瘦金W3.ttf);
+  unicode-range: U+00-024F; /* English glyphs */
 }
 
 a {
