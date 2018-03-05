@@ -1,12 +1,7 @@
 @font-face {
-  font-family: 鐵線龍門;
-  src: url(./華康鐵線龍門W3.ttf);
+  font-family: cwTeXFangSong;
+  src: url(./cwTeXFangSong.woff2);
   unicode-range: U+4E00-9FFF; /* Chinese glyphs */
-}
-@font-face {
-  font-family: 瘦金;
-  src: url(./華康瘦金W3.ttf);
-  unicode-range: U+00-024F; /* English glyphs */
 }
 
 a {
@@ -64,7 +59,7 @@ body {
 
 @media all and (min-width: 980px) {
   .container #content {
-    font-family:  "鐵線龍門";
+    font-family:  'cwTeXFangSong';
     font-weight:  70; 
     text-align:   center;
     background:   rgba(0,0,0,0.3);
@@ -80,7 +75,7 @@ body {
 
 @media all and (max-width: 979px) {
   .container #content {
-    font-family:  "鐵線龍門";
+    font-family:  'cwTeXFangSong';
     font-weight:  70; 
     text-align:   center;
     background:   rgba(0,0,0,0.3);
