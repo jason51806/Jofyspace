@@ -67,14 +67,14 @@ body {
   .container #content {
     font-family:  'cwTeXFangSong';
     font-weight:  70; 
-    text-align:   center;
+    text-align:   left;
     background:   rgba(0,0,0,0.3);
     color:        white;
     padding:      30px;
-    margin:       10% 5%;
-    width:        300px;
-    min-width:    300px;
-    font-size:    18px;
+    margin:       5% 5%;
+    width:        320px;
+    min-width:    320px;
+    font-size:    16px;
     position:     fixed;
   }
 }
@@ -83,14 +83,14 @@ body {
   .container #content {
     font-family:  'cwTeXFangSong';
     font-weight:  70; 
-    text-align:   center;
+    text-align:   left;
     background:   rgba(0,0,0,0.3);
     color:        white;
     padding:      30px 10px 10px 10px;
-    width:        280px;
-    min-width:    280px;
-    margin:       20% auto auto auto;
-    font-size:    18px;
+    width:        300px;
+    min-width:    300px;
+    margin:       10% auto auto auto;
+    font-size:    15px;
   }
 }
 
@@ -131,6 +131,27 @@ body {
   height: 40px;
   z-index: 999;
   opacity: 1;
+}
+.iconUl {
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.iconUl li {
+  list-style-type: none;
+  display: inline-block;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float:right;
+}
+
+.iconUl li img {
+    width : 30px;
+    height : 30px;
+    /*margin-right: auto;
+    margin-left: auto;*/
 }
 
 footer {
