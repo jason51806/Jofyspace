@@ -86,10 +86,10 @@ body {
     text-align:   left;
     background:   rgba(0,0,0,0.3);
     color:        white;
-    padding:      30px 10px 10px 10px;
+    padding:      20px 10px 10px 10px;
     width:        300px;
     min-width:    300px;
-    margin:       10% auto auto auto;
+    margin:       5% auto auto auto;
     font-size:    15px;
   }
 }
